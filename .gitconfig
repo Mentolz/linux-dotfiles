@@ -1,0 +1,12 @@
+[user]
+	name = Diogo Neto
+	email = diogo.neto@promptlyhealth.com
+[alias]
+	cg = config --global
+	st = status
+	last = log -1
+	co = checkout
+	rb = rebase
+	ci = commit
+[pull]
+	rebase = true
