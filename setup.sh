@@ -2,7 +2,6 @@
 
 DOTDIR=$HOME/.dotfiles
 
-
 echo "setup vim"
 ln -s $DOTDIR/.vimrc $HOME/.vimrc
 
@@ -29,5 +28,8 @@ chsh -s $(which zsh)
 echo "pip install global"
 pip install -r $DOTDIR/pip.txt
 pip3 install -r $DOTDIR/pip.txt
+
+echo "setup terminator"
+ln -s $DOTDIR/.config/terminator $HOME/terminator
 
 echo "Done"
